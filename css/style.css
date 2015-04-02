@@ -1,0 +1,224 @@
+a {
+    color: #1A1919;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: solid;
+    border-color: #A6A499;
+    border-width: 1.5px;
+}
+
+a:hover {
+    border-color: #1A1919;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #1A1919;
+}
+
+a.smallcaps {
+    text-decoration: none;
+    border-bottom: hidden;
+}
+
+#splash {
+    float: left;
+    margin-top: -25px;
+	height: 650px;
+	width: 100%;
+	background-color: #FAF9F5;
+}
+
+#about {
+    float: left;
+    margin-top: 80px;
+    height: 600px;
+    width: 100%;
+}
+
+footer {
+    float: left;
+    margin-top: 180px;
+    height: 120px;
+    width: 100%;
+    background-color: #FAF9F5;
+}
+
+h1 {
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 38px;
+    color: #1A1919;
+    line-height: 48px;
+}
+
+h2 {
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 42px;
+    color: #1A1919;
+}
+
+p {
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 39px;
+    color: #1A1919;
+}
+
+.medium {
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.smallcaps {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 1px;
+}
+
+.separator {
+    height: 5px;
+    width: 35px;
+    background-color: #FC583C;
+}
+
+#first {
+    margin-top: 115px;
+}
+
+#second {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#third {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+#intro {
+    margin-top: 260px;
+    margin-left: 11%;
+}
+
+#headline {
+    margin-left: 11%;
+    width: 78%;
+}
+
+#experience {
+    float: left;
+    margin-left: 11%;
+    width: 68%;
+}
+
+#social {
+    float: left;
+    margin-left: 30px;
+    width: 117px;
+}
+
+#contact {
+    float: left;
+    margin-top: 70px;
+    margin-left: 11%;
+    margin-bottom: 100px;
+    width: 38%;
+}
+
+#copyright {
+    float: right;
+    margin-right: 11%;
+    margin-top: 40px;
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+#splash {
+    height: 550px;
+}
+
+#about {
+    margin-top: 45px;
+}
+
+footer {
+    margin-top: 350px;
+}
+
+h1 {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.smallcaps {
+    font-size: 14px;
+    line-height: 35px
+}
+
+#intro {
+    margin-top: 280px;
+}
+
+#first {
+    margin-top: 80px;
+}
+
+#second {
+    margin-top: 75px;
+}
+
+#third {
+    margin-top: 75px;
+}
+
+#experience {
+    width: 80%;
+}
+
+#social {
+    margin-left: 11%;
+}
+
+#contact {
+    width: 45%;
+    margin-top: 115px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+}
+
+#copyright {
+    float: left;
+    margin-left: 11%;
+}
+
+}
+
+/* Extra large displays */
+@media only screen and (min-width : 1440px) {
+
+.wrapper {
+    width: 100%;
+    max-width: 1600px;
+}
